@@ -1,12 +1,14 @@
 {
   "name": "mikeportfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Portfolio",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "",
+  "author": "Rotimi Micheal",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"

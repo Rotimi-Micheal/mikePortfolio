@@ -260,7 +260,7 @@ p {
   justify-content: center;
   position: relative;
 
-  margin-top: -100px;
+  
   overflow: hidden;
 }
 
@@ -289,7 +289,7 @@ p {
 
 .slider__btn {
   position: absolute;
-  top: 50;
+  top: 50%;
   z-index: 10;
   border: none;
   background: rgba(255, 255, 255, 0.7);
@@ -303,12 +303,14 @@ p {
 
 .slider__btn--left {
   left: 6%;
-  transform: translateX(-50%, -50%);
+  top: 40%;
+  transform: translateY(-50%, -50%);
 }
 
 .slider__btn--right {
   right: 6%;
-  transform: translateX(-50%, -50%);
+  top: 40%;
+  transform: translateY(-50%, -50%);
 }
 
 .spinner {
@@ -382,7 +384,7 @@ p {
   }
 
   .slide {
-    top: -19;
+    top: 10;
     height: 100%;
     width: 100%;
   }
@@ -456,7 +458,6 @@ p {
 
   .slider__btn {
    position: absolute;
-   top: 50%;
    z-index: 10;
   } 
 
